@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+  <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles/modern-normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/skillstyle.css">
+  <link rel="stylesheet" href="styles/projectstyle.css">
+  <link rel="stylesheet" href="styles/contactstyle.css">
+  <title>portfolio | Jay Sairwa</title>
+</head>
+
+<body>
+  <div id="cursor-border"></div>
+  <section>
+    <header id="header">
+      <a class="logo" data-cursor="pointer">
+        <h5 data-value="portfolio.">Jay Sairwa.</h5>
+      </a>
+      <a  class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <nav class="nav-side">
+        <a href="#home" data-cursor="pointer">Home</a>
+        <a href="#skills" data-cursor="pointer">Skills</a>
+        <a href="#projects" data-cursor="pointer">Projects</a>
+        <a href="#contact" data-cursor="pointer">Contact</a>
+      </nav>
+    </header>
+    <div id="home">
+      <div class="about-me" data-cursor="pointer">
+        <p> <span class="namaste" is="type-async" id="type-text"></span><br> I'am Jay <br> Web Developer.
+        </p>
+      </div>
+      <div class="side-image">
+          <!-- <img src="hero.png" alt="my image" data-cursor="pointer"> -->
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="container">
+    <h1>#skills</h1>
+    <div class="main-box">
+      <div id="cards">
+        <div class="card">
+          <div class="card-content">
+            <img src="public/html-logo.svg" alt="">
+            <h3>HTML</h3>
+            <div class="icon-text">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <img src="public/css-logo.svg" alt="">
+            <h3>CSS</h3>
+            <div class="icon-text">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <img src="public/js-logo.svg" alt="">
+            <h3>Javascript</h3>
+            <div class="icon-text">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <img src="public/node-logo.svg" alt="">
+            <h3>NodeJS</h3>
+            <div class="icon-text">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <img src="public/react-logo.svg" alt="">
+            <h3>React</h3>
+            <div class="icon-text">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <img src="public/vue-logo.svg" alt="">
+            <h3>Vue</h3>
+            <div class="icon-text">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <img src="public/mongo-logo.svg" alt="">
+            <h3>MongoDB</h3>
+            <div class="icon-text">
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <img src="public/sql-logo.svg" alt="">
+            <h3>MySQL</h3>
+            <div class="icon-text">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cardStacking">
+    <div class="cont">
+      <div class="cardStacking__cards">
+        <div class="stackCard">
+          <h1>#projects</h1>
+          <div class="stackCard__body">
+            <div class="proj-info">
+              <div class="info">
+                <h2 style="color: #00b342;">GreenDock</h2>
+                <p>A database reteriving site for phytochemicals designed to make analysis of database faster and
+                  efficient.
+                </p>
+              </div>
+              <div class="tech">
+                <span>EJS</span>
+                <span>MongoDB</span>
+                <span>expressJS</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+            <div class="showcase">
+              <div id="tranding">
+                <div class="swiper tranding-slider">
+                  <div class="swiper-wrapper">
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="public/images/greenD-1.png" alt="Tranding">
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="public/images/greenD-2.png" alt="Tranding">
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="public/images/greenD-3.png" alt="Tranding">
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="public/images/greenD-4.png" alt="Tranding">
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="public/images/greenD-5.png" alt="Tranding">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="stackedLast" class="stackCard">
+          <h1>#projects</h1>
+          <div class="stackCard__body">
+            <div class="proj-info">
+              <div class="info">
+                <h2 style="color: #bb86fc;">RADIOX</h2>
+                <p>UI/UX of AI system that scans x-ray and give analysed result to the user.
+                </p>
+              </div>
+              <div class="tech">
+                <span>Vue</span>
+                <span>Docker</span>
+                <span>Vite</span>
+                <span>Axios</span>
+                <span>CSS</span>
+              </div>
+            </div>
+            <div class="showcase">
+              <div id="tranding">
+                <div class="swiper tranding-slider">
+                  <div class="swiper-wrapper">
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="public/images/xr-1.png" alt="Tranding">
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="public/images/xr-2.png" alt="Tranding">
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                    <!-- Slide-start -->
+                    <div class="swiper-slide tranding-slide">
+                      <div class="tranding-slide-img">
+                        <img src="public/images/xr-3.png" alt="Tranding">
+                      </div>
+                    </div>
+                    <!-- Slide-end -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+      <h1>#contacts</h1>
+    <div class="contact-main" data-cursor="pointer">
+      <h4>Want to create something together?</h4>
+      <div class="details">
+        <a href="mailto:jaidevsairwa@gmail.com">jaidevsairwa@gmail.com</a>
+
+      </div>
+      <div class="side-contact">
+        <i class="fa fa-github fa-3x icon-3d"></i>
+        <i class="fa fa-linkedin fa-3x icon-3d icend"></i>
+        <i class="fa fa-twitter fa-3x icon-3d"></i>
+        <i class="fa fa-instagram fa-3x icon-3d icend"></i>
+        <i class="fa-brands fa-discord fa-3x icon-3d" ></i>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    Jaidev Bairwa 2023 All rights reserved
+  </section>
+  <script src="https://kit.fontawesome.com/c3c6575aed.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script defer src="src/main.js"></script>
+</body>
+
+</html>
