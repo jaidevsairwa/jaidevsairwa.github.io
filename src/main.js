@@ -1,8 +1,8 @@
 // import '../styles/modern-normalize.css'
-// import '../styles/style.css'
-// import '../styles/skillstyle.css'
-// import '../styles/projectstyle.css'
-// import '../styles/contactstyle.css'
+import '../styles/style.css'
+import '../styles/skillstyle.css'
+import '../styles/projectstyle.css'
+import '../styles/contactstyle.css'
 
 // ------------- cursor -------------- 
 const cursorBorder = document.querySelector("#cursor-border");
@@ -207,12 +207,12 @@ var TrandingSlider = new Swiper('.tranding-slider', {
     centeredSlides: true,
     loop: true,
     slidesPerView: 'auto',
-    spaceBetween: 500,
+    spaceBetween: 100,
     coverflowEffect: {
-        rotate: 10,
-        stretch: 20,
-        depth: 250,
-        modifier: 1.5,
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2.5,
     },
       autoplay: {
       delay: 3000,

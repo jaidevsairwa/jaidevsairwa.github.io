@@ -1,6 +1,6 @@
 #contact{
     background-color: #e8e8e8;
-    background-image: url("../public/sanF.png");
+    background-image: url('/San Francisco.png');
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;

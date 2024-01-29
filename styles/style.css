@@ -219,8 +219,8 @@ h2{
     z-index: 5;
     background-color: #20262e;
     height: 76px;
-    /* top: -1%; */
-    /* left: -1%; */
+    top: -1%;
+    left: -1%;
   }
   .logo{
     padding: 0 32px;
@@ -228,9 +228,9 @@ h2{
   .nav-side{
     position: absolute;
     width: 100%;
-    height: calc(100vh - 76px);
+    height: calc(100vh - 90px);
     left: -100%;
-    margin-top: 76px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

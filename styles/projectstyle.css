@@ -127,14 +127,19 @@
         height: 22rem !important;
         /* box-shadow: 0px 0px 60px -30px #fff; */
     }
-    #stackedLast{
+    /* #stackedLast{
         height: 700px !important;
-    }
+    } */
 }
 
 @media screen and (max-width:796px) {
     .showcase{
         height: 240px;
+    }
+    .proj-info {
+        /* font-size: 1.3rem; */
+        flex-direction: column;
+        height: auto;
     }
     .tranding-slide {
         width: 29.5rem !important;
@@ -148,6 +153,27 @@
 }
 
 @media screen and (max-width:546px){
+    .hide-proj{
+        display: none;
+    }
+    .cardStacking{
+        margin: 0 0 32%;
+    }
+    .cardStacking h1 {
+        background: -webkit-linear-gradient(#eee 45%, #141414);
+        background-clip: inherit;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: -70px;
+        margin-left: -12px;
+    }
+    .proj-info{
+        font-size: 1.3rem;
+    }
+    .proj-info p{
+        font-size: 0.8rem;
+    }
+
     .tranding-slide {
         width: 130vw !important;
         height: 13rem !important;
@@ -157,5 +183,15 @@
         width: 22rem !important;
         height: auto !important;
         /* box-shadow: 0px 0px 60px -30px #fff; */
+    }
+    .cardStacking .stackCard {
+        min-height: auto;
+        height: auto;
+    }
+    .stackCard__body{
+        padding-bottom: 10px;
+    }
+    #stackedLast{
+        height: auto;
     }
 }
