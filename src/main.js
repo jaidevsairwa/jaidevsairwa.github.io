@@ -1,9 +1,3 @@
-// import '../styles/modern-normalize.css'
-import '../styles/style.css'
-import '../styles/skillstyle.css'
-import '../styles/projectstyle.css'
-import '../styles/contactstyle.css'
-
 // ------------- cursor -------------- 
 const cursorBorder = document.querySelector("#cursor-border");
 const cursorPos = { x: 0, y: 0 };
