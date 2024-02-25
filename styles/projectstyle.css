@@ -3,17 +3,19 @@
     padding: 0px 0;
 }
 
-.cont{
+.cont {
     min-height: 800px;
     border-radius: 40px;
     opacity: 1;
     max-width: 1840px;
     margin: 0 auto 20%;
 }
+
 .cont h1 {
     padding-bottom: 18px;
 }
-.cont h2{
+
+.cont h2 {
     margin: 2rem auto 0;
 }
 
@@ -27,34 +29,40 @@
     box-shadow: 0px 0px 20px 15px rgb(15, 15, 15, 0.3);
 }
 
-.stackCard__body{
+.stackCard__body {
     overflow: hidden;
     padding-bottom: 100px;
 }
-#stackedLast{
+
+#stackedLast {
     height: 800px;
 }
-.proj-info h2{
+
+.proj-info h2 {
     margin-bottom: 0%;
 }
+
 .proj-info {
     margin: 0;
     display: flex;
     height: 200px;
     font-size: 2rem;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: first baseline;
     padding: 0 4% 13%;
 }
 
-.info p{
+.info p {
     margin-top: 1%;
     font-size: 1.4rem;
 }
-.info , .tech{
+
+.info,
+.tech {
     width: -moz-available;
 }
-.tech{
+
+.tech {
     font-size: smaller;
     font-weight: 100;
     display: flex;
@@ -65,35 +73,40 @@
     background: rgb(20, 20, 20);
     background: linear-gradient(0deg, rgba(20, 20, 20, 1) 0%, rgba(255, 255, 255, 1) 20%, rgba(209, 209, 209, 1) 80%, rgba(20, 20, 20, 1) 100%);
     height: 370px;
-    margin: 0 -2%;
+    /* margin: 0 -2%; */
 
-}
-
-.tranding-slide {
-    width: 23rem !important;
-    height: 23rem !important;
 }
 
 .tranding-slide .tranding-slide-img img {
-    width: auto !important;
-    height: 28rem !important;
-    position: relative;
+    /* width: auto ; */
+    height: 28rem;
+    /* position: relative; */
     border-radius: 2rem;
     object-fit: cover;
     transition: 0.4s ease-in-out;
     box-shadow: -10px 0 80px -8px black, 10px 0 80px -8px grey, 0px -110px 50px -100px #fff;
-    top: -40px;
+    /* top: -40px; */
     /* box-shadow: 0px 0px 60px -30px #fff; */
 }
 
 .swiper {
+    /* width: 100%; */
     overflow: visible;
-    /* margin-right: 24rem; */
 }
 
-.swiper-slide-active img{
-    box-shadow: -10px 0 80px -8px black, 10px 0 80px -8px grey,0px -110px 200px -100px #fff !important;
+.swiper-slide {
+    width: 16.75rem;
+    height: 24.125rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: self-start;
 }
+
+.swiper-slide-active img {
+    box-shadow: -10px 0 80px -8px black, 10px 0 80px -8px grey, 0px -110px 200px -100px #fff;
+}
+
 .swiper-slide-shadow-left,
 .swiper-slide-shadow-right {
     display: none;
@@ -105,60 +118,70 @@
 }
 
 /* -------------------media query------------ */
-@media screen and (max-width:1054px){
-    .showcase{
+@media screen and (max-width:1054px) {
+    .showcase {
         margin: 12% auto;
         height: 300px;
     }
-    .cont h1{
+
+    .cont h1 {
         margin-top: 600px;
     }
-    .cardStacking .stackCard{
+
+    .cardStacking .stackCard {
         min-height: 630px;
         height: 750px;
     }
+
     .tranding-slide {
-        /* width: 28rem !important; */
-        height: 18rem !important;
+        /* width: 28rem ; */
+        height: 18rem;
     }
 
     .tranding-slide .tranding-slide-img img {
-        /* width: 46rem !important; */
-        height: 22rem !important;
+        /* width: 46rem ; */
+        height: 22rem;
         /* box-shadow: 0px 0px 60px -30px #fff; */
     }
+
     /* #stackedLast{
-        height: 700px !important;
+        height: 700px ;
     } */
 }
 
 @media screen and (max-width:796px) {
-    .showcase{
+    .showcase {
         height: 240px;
     }
+
     .proj-info {
         /* font-size: 1.3rem; */
         flex-direction: column;
         height: auto;
     }
+
     .tranding-slide {
-        width: 29.5rem !important;
-        height: 18rem !important;
+        width: 29.5rem;
+        height: 18rem;
     }
+
     .tranding-slide .tranding-slide-img img {
-        width: 37rem !important;
-        height: 18rem !important;
+        width: 33rem;
+        height: 16.2rem;
+        border-radius: 1rem;
         /* box-shadow: 0px 0px 60px -30px #fff; */
     }
 }
 
-@media screen and (max-width:546px){
-    .hide-proj{
+@media screen and (max-width:546px) {
+    .hide-proj {
         display: none;
     }
-    .cardStacking{
+
+    .cardStacking {
         margin: 0 0 32%;
     }
+
     .cardStacking h1 {
         background: -webkit-linear-gradient(#eee 45%, #141414);
         background-clip: inherit;
@@ -167,31 +190,33 @@
         margin-top: -70px;
         margin-left: -12px;
     }
-    .proj-info{
+
+    .proj-info {
         font-size: 1.3rem;
     }
-    .proj-info p{
+
+    .proj-info p {
         font-size: 0.8rem;
     }
 
-    .tranding-slide {
-        width: 130vw !important;
-        height: 13rem !important;
-    }   
     .tranding-slide .tranding-slide-img img {
-        border-radius: 6px;
-        width: 22rem !important;
-        height: auto !important;
+        width: 100%;
+        height: 10rem;
+        border-radius: 5px;
+        margin-top: 40px;
         /* box-shadow: 0px 0px 60px -30px #fff; */
     }
+
     .cardStacking .stackCard {
         min-height: auto;
         height: auto;
     }
-    .stackCard__body{
+
+    .stackCard__body {
         padding-bottom: 10px;
     }
-    #stackedLast{
+
+    #stackedLast {
         height: auto;
     }
 }

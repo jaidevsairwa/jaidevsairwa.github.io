@@ -40,10 +40,17 @@ document.querySelectorAll("[data-cursor]").forEach((item) => {
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
 const navBar = document.getElementsByClassName('nav-side')[0]
 const head = document.getElementById('header')
-toggleButton.addEventListener('click',()=>{
+toggleButton.addEventListener('click', () => {
     head.classList.toggle('active')
     navBar.classList.toggle('active')
 })
+const toggleOnLink = document.getElementsByClassName('nav-link')
+for (let i = 0; i < toggleOnLink.length; i++) {
+    toggleOnLink[i].addEventListener('click', () => {
+        head.classList.toggle('active')
+        navBar.classList.toggle('active')
+    })
+}
 // ------------------hacker----------------
 async function backtoname() {
     const hack = document.querySelector("h5")
@@ -201,7 +208,7 @@ var TrandingSlider = new Swiper('.tranding-slider', {
     centeredSlides: true,
     loop: true,
     slidesPerView: 'auto',
-    spaceBetween: 100,
+    spaceBetween: 500,
     coverflowEffect: {
         rotate: 0,
         stretch: 0,
