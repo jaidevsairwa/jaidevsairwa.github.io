@@ -7,6 +7,7 @@
     height: 754px;
     /* margin-bottom: 14%; */
     position: relative;
+    margin: 0 0 10%;
 }
 
 #contact h1{
@@ -94,6 +95,7 @@ h4{
 @media screen and (max-width:1512px){
     #contact{
         height: 75vh;
+        margin: 0 0 20%;
     }
     #contact h1{
         margin-top: 670px;
@@ -151,6 +153,7 @@ h4{
     #contact{
         height: 70vh;
         background-size:120vh;
+        margin: 0 0 30%;
     }
 
     #contact h1{

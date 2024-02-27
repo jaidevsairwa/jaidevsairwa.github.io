@@ -1,3 +1,14 @@
+// --------------navBar---------------
+var prevScrollpos = window.scrollY;
+window.onscroll = function () {
+    var currentScrollPos = window.scrollY || window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementsByTagName("header")[0].style.top = "-1%";
+    } else {
+        document.getElementsByTagName("header")[0].style.top = "-76px";
+    }
+    prevScrollpos = currentScrollPos;
+}
 // ------------- cursor -------------- 
 const cursorBorder = document.querySelector("#cursor-border");
 const cursorPos = { x: 0, y: 0 };
