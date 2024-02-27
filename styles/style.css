@@ -78,7 +78,7 @@ header{
 .toggle-button{
   position: absolute;
   top: 2.4rem;
-  right: 3rem;
+  right: 2rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -237,7 +237,7 @@ h2{
   .nav-side{
     position: absolute;
     width: 100%;
-    height: calc(100vh - 90px);
+    height: calc(112vh - 90px);
     left: -100%;
     margin-top: 80px;
     display: flex;
@@ -251,11 +251,14 @@ h2{
   }
   #header.active{
   background-color: #000000aa;
-  backdrop-filter: blur(30px);
+  /* backdrop-filter: blur(30px); */
   transition: all 0.2s ease-out;
   }
   .nav-side.active{
     left: 0;
+  }
+  .nav-link:last-child {
+    padding-bottom: 12vh;
   }
   .about-me {
     display: block;
