@@ -19,6 +19,10 @@
     margin: 2rem auto 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .cardStacking .stackCard {
     background-color: #141414;
     min-height: 754px;
@@ -41,6 +45,16 @@
 .proj-info h2 {
     margin-bottom: 0%;
 }
+.proj-info h2:hover {
+    transition: 0.2s ease-out;
+    text-shadow: 0 0 10px #b4b1b1,
+        0 0 10px #b4b1b1,
+        0 0 20px #b4b1b1,
+        0 0 20px #b4b1b1,
+        0 0 20px #b4b1b1,
+        0 0 20px #b4b1b1,
+        0 0 20px #b4b1b1;
+}
 
 .proj-info {
     margin: 0;
@@ -60,6 +74,7 @@
 .info,
 .tech {
     width: -moz-available;
+    width: -webkit-fill-available;
 }
 
 .tech {

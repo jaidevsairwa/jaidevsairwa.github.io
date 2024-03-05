@@ -37,7 +37,6 @@ h4{
     flex-direction: column;
 }
 .side-contact {
-    
     align-self: end;
     width: 470px;
     background-color: #e8e8e8;
@@ -54,6 +53,7 @@ h4{
     animation: icon3d 200ms 10;
     z-index: 1;
     opacity: 1;
+    color: #141414;
 }
 
 .icon-3d:hover {
