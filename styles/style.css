@@ -72,17 +72,22 @@ header{
   margin-left: 4rem;
   text-decoration: none;
   color: #b4b4b4;
+  padding: 16px 0;
 }
 
 .toggle-button{
   position: absolute;
-  top: 2.4rem;
-  right: 2rem;
+  top: 2rem;
+  right: 1rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 30px;
-  height: 21px;
+  width: 50px;
+  height: 31px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .toggle-button .bar{
