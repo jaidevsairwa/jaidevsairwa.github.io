@@ -7,7 +7,6 @@
   box-sizing: border-box;
   padding: 0;
   line-height: calc(1em + 0.5rem);
-  /* cursor: none; */
   
 }
 
@@ -173,7 +172,6 @@ h2{
   width: var(--size);
   height: var(--size);
   border-radius: 50%;
-  /* box-shadow: 0 0 0 1px white; */
   pointer-events: none;
   transition: top 0.15s ease-out, left 0.15s ease-out, width 0.15s ease-out,
     height 0.15s ease-out, background-color 0.15s ease-out;
@@ -207,9 +205,6 @@ h2{
 }
 
 @media screen and (max-width:796px){
-  *{
-    cursor: none;
-  }
   #home {
       height: 90vh;
       flex-direction: column;
@@ -230,6 +225,9 @@ h2{
     top: -1%;
     /* left: -1%; */
     transition: top 0.3s;
+  }
+  body{
+    overflow-x: hidden;
   }
   .logo{
     padding: 0 32px;
@@ -276,5 +274,8 @@ h2{
     text-align: center;
     background-color: #20262E;
     font-size: small;
+  }
+  #cursor-border{
+    display: none;
   }
 }
